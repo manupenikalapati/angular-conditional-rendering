@@ -8,5 +8,11 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('conditionalRendering');
+  isLoggedin = false;
+  age = 16;
+  marks = 85;
+
+  isLoading = false;
+  isError = false;
+  userName = "Manmohan";
 }
